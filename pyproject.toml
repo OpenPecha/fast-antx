@@ -17,6 +17,12 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 
+dependencies = [
+    "diff-match-patch>=20230430",
+    "PyYAML>=6.0",
+    "requests>=2.24.0",
+]
+
 [project.optional-dependencies]
 dev = [
     "pytest",
