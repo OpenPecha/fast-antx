@@ -1,5 +1,5 @@
 
-# Project name
+# Fast antx docs
 
 <!-- This is the project's homepage -->
 
