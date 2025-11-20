@@ -25,10 +25,10 @@ def get_bin_metadata():
 
 
 def get_dmp_bin_url(platform_type):
-    response = requests.get(
-        "https://api.github.com/repos/Esukhia/node-dmp-cli/releases/latest"
-    )
-    version = response.json()["tag_name"]
+    # response = requests.get(
+    #     "https://api.github.com/repos/Esukhia/node-dmp-cli/releases/latest"
+    # )
+    version = "v0.0.3"
     return (
         f"https://github.com/Esukhia/node-dmp-cli/releases/download/{version}/{platform_type}.zip",
         version,
